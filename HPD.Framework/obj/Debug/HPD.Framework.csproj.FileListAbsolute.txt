@@ -1,0 +1,14 @@
+D:\TaiNguyen\Project\Plazzo\HPD\Project\Dev\HPD.Framework\bin\Debug\HPD.Framework.dll.config
+D:\TaiNguyen\Project\Plazzo\HPD\Project\Dev\HPD.Framework\bin\Debug\HPD.Framework.dll
+D:\TaiNguyen\Project\Plazzo\HPD\Project\Dev\HPD.Framework\bin\Debug\HPD.Framework.pdb
+D:\TaiNguyen\Project\Plazzo\HPD\Project\Dev\HPD.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\TaiNguyen\Project\Plazzo\HPD\Project\Dev\HPD.Framework\obj\Debug\ResolveAssemblyReference.cache
+D:\TaiNguyen\Project\Plazzo\HPD\Project\Dev\HPD.Framework\obj\Debug\HPD.Framework.dll
+D:\TaiNguyen\Project\Plazzo\HPD\Project\Dev\HPD.Framework\obj\Debug\HPD.Framework.pdb
+D:\Projects\HappyDay\src\hpprj01\HPD.Framework\bin\Debug\HPD.Framework.dll.config
+D:\Projects\HappyDay\src\hpprj01\HPD.Framework\bin\Debug\HPD.Framework.dll
+D:\Projects\HappyDay\src\hpprj01\HPD.Framework\bin\Debug\HPD.Framework.pdb
+D:\Projects\HappyDay\src\hpprj01\HPD.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Projects\HappyDay\src\hpprj01\HPD.Framework\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\HappyDay\src\hpprj01\HPD.Framework\obj\Debug\HPD.Framework.dll
+D:\Projects\HappyDay\src\hpprj01\HPD.Framework\obj\Debug\HPD.Framework.pdb

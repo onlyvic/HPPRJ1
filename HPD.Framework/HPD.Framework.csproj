@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30753EBD-1B56-49D7-AB44-87B402CEE224}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HPD.Framework</RootNamespace>
+    <AssemblyName>HPD.Framework</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_dll\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database\CDataMapper.cs" />
+    <Compile Include="Database\CDb.cs" />
+    <Compile Include="Database\Db.cs" />
+    <Compile Include="Log\CLogIni.cs" />
+    <Compile Include="Log\CLogManager.cs" />
+    <Compile Include="Log\ILog.cs" />
+    <Compile Include="Log\LogEventArgs.cs" />
+    <Compile Include="Log\LogSeverity.cs" />
+    <Compile Include="Log\ObserverLogToDatabase.cs" />
+    <Compile Include="Log\ObserverLogToEmail.cs" />
+    <Compile Include="Log\ObserverLogToEventlog.cs" />
+    <Compile Include="Log\ObserverLogToFile.cs" />
+    <Compile Include="Log\SingletonLogger.cs" />
+    <Compile Include="Log\TLog.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\CComparer.cs" />
+    <Compile Include="Utils\CFile.cs" />
+    <Compile Include="Utils\CRespone.cs" />
+    <Compile Include="Utils\Cryptography\Encryption.cs" />
+    <Compile Include="Utils\Cryptography\Extensions\ByteArray.cs" />
+    <Compile Include="Utils\Cryptography\Extensions\SafeConvert.cs" />
+    <Compile Include="Utils\Cryptography\Extensions\Strings.cs" />
+    <Compile Include="Utils\Cryptography\Hashing.cs" />
+    <Compile Include="Utils\Web\CQueryString.cs" />
+    <Compile Include="Utils\Zip\CSharpZipLib.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_dll\ICSharpCode.SharpZipLib.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tools\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

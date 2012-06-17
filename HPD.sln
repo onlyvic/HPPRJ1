@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Framework", "01. Framework", "{DDFBE15E-A01C-4F10-ABAD-B2897E88119A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Presentation Layer", "10. Presentation Layer", "{FC2E0582-5291-44DE-8675-A9FCD6F1D5B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40. Data Layer", "40. Data Layer", "{4C0497ED-F399-4FB0-BF00-8D09B0B08EAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30. Business Layer", "30. Business Layer", "{26D330D7-B4EC-4204-90E7-8BFAFCC3BCBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. Service Layer", "20. Service Layer", "{378C1067-8483-4A58-B2D3-FAB0614CEEF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPD.Framework", "HPD.Framework\HPD.Framework.csproj", "{30753EBD-1B56-49D7-AB44-87B402CEE224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPD.DAL.DataObjects", "HPD.DAL.DataObjects\HPD.DAL.DataObjects.csproj", "{14D3F63E-AA99-4067-90DF-E521447F0B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPD.BUS.BusinessObjects", "HPD.BUS.BusinessObjects\HPD.BUS.BusinessObjects.csproj", "{18EA9A90-F78A-477C-9CE9-8E558325448D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HPD.Service.Data", "HPD.Service.Data\", "{CFF9584C-EFE1-4997-9790-69D053187838}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		Debug.AspNetCompiler.VirtualPath = "/HPD.Service.Data"
+		Debug.AspNetCompiler.PhysicalPath = "HPD.Service.Data\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\HPD.Service.Data\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/HPD.Service.Data"
+		Release.AspNetCompiler.PhysicalPath = "HPD.Service.Data\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\HPD.Service.Data\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2370"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPD.Web", "HPD.Web\HPD.Web.csproj", "{EC07A6CE-DE59-4607-90A0-8121046386AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30753EBD-1B56-49D7-AB44-87B402CEE224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30753EBD-1B56-49D7-AB44-87B402CEE224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30753EBD-1B56-49D7-AB44-87B402CEE224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30753EBD-1B56-49D7-AB44-87B402CEE224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D3F63E-AA99-4067-90DF-E521447F0B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D3F63E-AA99-4067-90DF-E521447F0B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D3F63E-AA99-4067-90DF-E521447F0B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D3F63E-AA99-4067-90DF-E521447F0B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18EA9A90-F78A-477C-9CE9-8E558325448D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EA9A90-F78A-477C-9CE9-8E558325448D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EA9A90-F78A-477C-9CE9-8E558325448D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EA9A90-F78A-477C-9CE9-8E558325448D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF9584C-EFE1-4997-9790-69D053187838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF9584C-EFE1-4997-9790-69D053187838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF9584C-EFE1-4997-9790-69D053187838}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF9584C-EFE1-4997-9790-69D053187838}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EC07A6CE-DE59-4607-90A0-8121046386AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC07A6CE-DE59-4607-90A0-8121046386AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC07A6CE-DE59-4607-90A0-8121046386AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC07A6CE-DE59-4607-90A0-8121046386AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30753EBD-1B56-49D7-AB44-87B402CEE224} = {DDFBE15E-A01C-4F10-ABAD-B2897E88119A}
+		{EC07A6CE-DE59-4607-90A0-8121046386AA} = {FC2E0582-5291-44DE-8675-A9FCD6F1D5B6}
+		{14D3F63E-AA99-4067-90DF-E521447F0B1B} = {4C0497ED-F399-4FB0-BF00-8D09B0B08EAA}
+		{18EA9A90-F78A-477C-9CE9-8E558325448D} = {26D330D7-B4EC-4204-90E7-8BFAFCC3BCBB}
+		{CFF9584C-EFE1-4997-9790-69D053187838} = {378C1067-8483-4A58-B2D3-FAB0614CEEF6}
+	EndGlobalSection
+EndGlobal

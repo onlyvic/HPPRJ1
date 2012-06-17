@@ -1,0 +1,10 @@
+D:\Projects\HappyDay\test\Dev\Dev\HPD.Web\bin\HPD.Web.dll
+D:\Projects\HappyDay\test\Dev\Dev\HPD.Web\bin\HPD.Web.pdb
+D:\Projects\HappyDay\test\Dev\Dev\HPD.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\HappyDay\test\Dev\Dev\HPD.Web\obj\Debug\HPD.Web.dll
+D:\Projects\HappyDay\test\Dev\Dev\HPD.Web\obj\Debug\HPD.Web.pdb
+D:\Projects\HappyDay\src\hpprj01\HPD.Web\bin\HPD.Web.dll
+D:\Projects\HappyDay\src\hpprj01\HPD.Web\bin\HPD.Web.pdb
+D:\Projects\HappyDay\src\hpprj01\HPD.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\HappyDay\src\hpprj01\HPD.Web\obj\Debug\HPD.Web.dll
+D:\Projects\HappyDay\src\hpprj01\HPD.Web\obj\Debug\HPD.Web.pdb
